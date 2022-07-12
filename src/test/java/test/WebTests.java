@@ -23,7 +23,7 @@ public class WebTests extends BaseWebTest {
     }
 
     @Test
-    public void loginTest(){
+    public void verifyLogin(){
         LoginPage loginPage = homePage.clickOnLoginButton();
         loginPage.enterEmailAddress("asd@asd.net");
         loginPage.enterPassword("xxxxxxxxxx");
