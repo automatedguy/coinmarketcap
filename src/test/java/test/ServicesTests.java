@@ -5,10 +5,11 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import service.WebServiceInfo;
 import service.WebServiceMap;
+import setup.BaseServiceTest;
 
 import static org.testng.Assert.assertEquals;
 
-public class ServicesTests {
+public class ServicesTests extends BaseServiceTest {
 
     String apiKey = "b40a4049-05e4-4389-8ea6-68db9b3194f8";
     String baseUrl = "https://pro-api.coinmarketcap.com";
